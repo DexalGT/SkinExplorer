@@ -438,8 +438,6 @@
   </div>
 </div>
 
-<button id="debugOpenModalButton">DEBUG: Test Open Modal</button>
-
 <script>
 let patchVersion = null;
 const championListEl = document.getElementById('championList');
@@ -973,21 +971,6 @@ chromaModal.addEventListener('click', (e) => {
         console.log("Clicked outside chroma modal content, closing.");
         chromaModal.classList.remove('visible');
     }
-});
-
-// DEBUG BUTTON - Event listener
-const debugButton = document.getElementById('debugOpenModalButton');
-debugButton.addEventListener('click', () => {
-    console.log("DEBUG BUTTON CLICKED: Forcing chroma modal open with placeholder data.");
-    if (!selectedChampionData) {
-        selectedChampionData = { id: 'Aatrox', name: 'Aatrox', key: '266', image: { full: 'Aatrox.png'} }; 
-    }
-    const dummyDDragonSkin = { id: `${selectedChampionData.key}000`, num: 0, name: 'Placeholder Classic Skin' };
-    const dummyCDragonChromas = [
-        { id: parseInt(`${selectedChampionData.key}000001`), name: "Placeholder Chroma 1", chromaPath: "/nonexistent/path1.png", colors: ["Red"] }, // ID'yi sayı yapalım
-        { id: parseInt(`${selectedChampionData.key}000002`), name: "Placeholder Chroma 2", chromaPath: "/nonexistent/path2.png", colors: ["Blue"] } // ID'yi sayı yapalım
-    ];
-    openChromaModal(parseInt(selectedChampionData.key), dummyDDragonSkin, "Placeholder Skin Name", dummyCDragonChromas);
 });
 
 initializeApp();
