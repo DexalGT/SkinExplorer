@@ -1,0 +1,29 @@
+/* themes/default-purple.css */
+:root {
+  /* Ana Renkler */
+  --primary-color: #bb86fc;
+  --primary-color-darker: rgba(138, 43, 226, 0.7);
+  --primary-color-hover-bg: rgba(138, 43, 226, 0.2);
+  --primary-color-active-bg: rgba(138, 43, 226, 0.4);
+  --primary-color-border: rgba(138, 43, 226, 0.4);
+  --primary-color-focus-border: #bb86fc;
+  --primary-color-gradient-start: rgba(138, 43, 226, 0.4);
+  --primary-color-gradient-end: rgba(187, 134, 252, 0.3);
+
+  /* İkon ve Gösterge Renkleri */
+  --icon-fill-color: #bb86fc;
+  --indicator-bg-color: rgba(187, 134, 252, 0.85);
+  --checkmark-bg: rgba(187, 134, 252, 0.9);
+  --checkmark-color: #000000;
+  
+  /* Metin Renkleri */
+  --text-color-headings: #bb86fc;
+  --text-color-button: #121212;
+
+  /* Gölge ve Parlama Renkleri */
+  --box-shadow-panel: 0 10px 30px rgba(138, 43, 226, 0.2);
+  --box-shadow-item-hover: 0 4px 15px rgba(138, 43, 226, 0.3);
+  --box-shadow-selected: 0 4px 20px rgba(138, 43, 226, 0.5);
+  --box-shadow-title-photo: 0 0 16px 2px rgba(138, 43, 226, 0.4), 0 2px 8px rgba(0,0,0,0.5);
+  --box-shadow-skin-card-hover: 0 15px 40px rgba(138, 43, 226, 0.4);
+}
