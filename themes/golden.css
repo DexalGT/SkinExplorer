@@ -1,0 +1,31 @@
+/* themes/golden.css */
+:root {
+  /* Ana Renkler (Mevcut) */
+  --primary-color: #FFD700;
+  --primary-color-darker: rgba(218, 165, 32, 0.8); /* Biraz daha belirgin hale getirildi */
+  --primary-color-hover-bg: rgba(255, 215, 0, 0.2);
+  --primary-color-active-bg: rgba(255, 215, 0, 0.4);
+  --primary-color-border: rgba(255, 215, 0, 0.4);
+  --primary-color-focus-border: #FFD700;
+  --primary-color-gradient-start: rgba(255, 193, 7, 0.4);
+  --primary-color-gradient-end: rgba(255, 215, 0, 0.3);
+
+  /* İkon ve Gösterge Renkleri (Mevcut) */
+  --icon-fill-color: #FFA500;
+  --indicator-bg-color: rgba(255, 215, 0, 0.85);
+  --checkmark-bg: rgba(255, 215, 0, 0.9);
+  --checkmark-color: #3d2c00; /* Daha koyu ve okunaklı bir kahverengi */
+  
+  /* Metin Renkleri (Mevcut) */
+  --text-color-headings: #FFD700;
+  --text-color-button: #3d2c00; /* Buton üzerindeki metin için daha iyi kontrast */
+
+  /* YENİ: Eksik Olan ve Sorun Yaratan Gölge Değişkenleri */
+  /* Bu değişkenler style.css'te mor renkteydi ve burada üzerine yazılmadığı için
+     hover efektleri ve seçili öğe parlamaları mor görünüyordu. */
+  --box-shadow-panel: 0 10px 30px rgba(255, 215, 0, 0.2);
+  --box-shadow-item-hover: 0 4px 15px rgba(255, 215, 0, 0.3);
+  --box-shadow-selected: 0 4px 20px rgba(255, 215, 0, 0.5);
+  --box-shadow-title-photo: 0 0 16px 2px rgba(255, 215, 0, 0.4), 0 2px 8px rgba(0,0,0,0.5);
+  --box-shadow-skin-card-hover: 0 15px 40px rgba(255, 215, 0, 0.4);
+}

@@ -1,0 +1,29 @@
+/* themes/ocean-blue.css */
+:root {
+  /* Ana Renkler */
+  --primary-color: #4364F7;
+  --primary-color-darker: rgba(0, 82, 212, 0.7);
+  --primary-color-hover-bg: rgba(0, 82, 212, 0.2);
+  --primary-color-active-bg: rgba(0, 82, 212, 0.4);
+  --primary-color-border: rgba(67, 100, 247, 0.4);
+  --primary-color-focus-border: #4364F7;
+  --primary-color-gradient-start: rgba(0, 100, 200, 0.4);
+  --primary-color-gradient-end: rgba(67, 100, 247, 0.3);
+
+  /* İkon ve Gösterge Renkleri */
+  --icon-fill-color: #87CEFA; /* LightSkyBlue */
+  --indicator-bg-color: rgba(67, 100, 247, 0.85);
+  --checkmark-bg: rgba(135, 206, 250, 0.9);
+  --checkmark-color: #003366;
+  
+  /* Metin Renkleri */
+  --text-color-headings: #87CEFA;
+  --text-color-button: #f0f8ff;
+
+  /* Gölge ve Parlama Renkleri */
+  --box-shadow-panel: 0 10px 30px rgba(67, 100, 247, 0.2);
+  --box-shadow-item-hover: 0 4px 15px rgba(67, 100, 247, 0.3);
+  --box-shadow-selected: 0 4px 20px rgba(67, 100, 247, 0.5);
+  --box-shadow-title-photo: 0 0 16px 2px rgba(67, 100, 247, 0.4), 0 2px 8px rgba(0,0,0,0.5);
+  --box-shadow-skin-card-hover: 0 15px 40px rgba(67, 100, 247, 0.4);
+}
