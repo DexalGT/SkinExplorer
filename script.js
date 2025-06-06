@@ -41,7 +41,9 @@ const DDRAGON_BASE_URL = 'https://ddragon.leagueoflegends.com/cdn';
 const WIKI_REDIRECT_BASE_URL = 'https://leagueoflegends.fandom.com/wiki/Special:Redirect/file';
 const CDRAGON_CHROMA_IMAGES_BASE_URL = 'https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images';
 
-const REPOSITORY_NAME = "SkinExplorer" ;
+// --- BU SATIR EKLENEREK HATA DÜZELTİLDİ ---
+const REPOSITORY_NAME = 'SkinExplorer'; // TIRNAK İÇİNE KENDİ GITHUB REPO ADINIZI YAZIN
+// ------------------------------------------
 
 const AVAILABLE_THEMES = [
   { file: "default-purple.css", name: "Default Purple", previewColor: "#bb86fc" },
