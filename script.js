@@ -110,7 +110,7 @@ function applyTheme(themeFileName) {
   }
   // Varsayılan tema dosya adını kontrol et
   if (themeFileName && themeFileName !== AVAILABLE_THEMES[0].file) { 
-    const themeUrl = `${REPOSITORY_NAME}/themes/${themeFileName}`; // <--- YENİ HALİ
+    const themeUrl = `/${REPOSITORY_NAME}/themes/${themeFileName}`; // BAŞINA / EKLENDİ
     const newThemeLink = document.createElement('link');
     newThemeLink.rel = 'stylesheet';
     newThemeLink.href = themeUrl;
