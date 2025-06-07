@@ -1,0 +1,29 @@
+/* themes/bronze-copper.css */
+:root {
+  /* Ana Renkler */
+  --primary-color: #CD7F32;
+  --primary-color-darker: rgba(205, 127, 50, 0.7);
+  --primary-color-hover-bg: rgba(205, 127, 50, 0.2);
+  --primary-color-active-bg: rgba(205, 127, 50, 0.4);
+  --primary-color-border: rgba(205, 127, 50, 0.4);
+  --primary-color-focus-border: #CD7F32;
+  --primary-color-gradient-start: rgba(205, 127, 50, 0.4);
+  --primary-color-gradient-end: rgba(184, 115, 51, 0.3);
+
+  /* İkon ve Gösterge Renkleri */
+  --icon-fill-color: #CD7F32;
+  --indicator-bg-color: rgba(205, 127, 50, 0.85);
+  --checkmark-bg: rgba(205, 127, 50, 0.9);
+  --checkmark-color: #ffffff;
+  
+  /* Metin Renkleri */
+  --text-color-headings: #CD7F32;
+  --text-color-button: #ffffff;
+
+  /* Gölge ve Parlama Renkleri */
+  --box-shadow-panel: 0 10px 30px rgba(205, 127, 50, 0.2);
+  --box-shadow-item-hover: 0 4px 15px rgba(205, 127, 50, 0.3);
+  --box-shadow-selected: 0 4px 20px rgba(205, 127, 50, 0.5);
+  --box-shadow-title-photo: 0 0 16px 2px rgba(205, 127, 50, 0.4), 0 2px 8px rgba(0,0,0,0.5);
+  --box-shadow-skin-card-hover: 0 15px 40px rgba(205, 127, 50, 0.4);
+}

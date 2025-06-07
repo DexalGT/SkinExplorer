@@ -1,0 +1,29 @@
+/* themes/arctic-white.css */
+:root {
+  /* Ana Renkler */
+  --primary-color: #F0F8FF;
+  --primary-color-darker: rgba(240, 248, 255, 0.9);
+  --primary-color-hover-bg: rgba(240, 248, 255, 0.3);
+  --primary-color-active-bg: rgba(240, 248, 255, 0.5);
+  --primary-color-border: rgba(240, 248, 255, 0.6);
+  --primary-color-focus-border: #F0F8FF;
+  --primary-color-gradient-start: rgba(240, 248, 255, 0.4);
+  --primary-color-gradient-end: rgba(230, 230, 250, 0.3);
+
+  /* İkon ve Gösterge Renkleri */
+  --icon-fill-color: #F0F8FF;
+  --indicator-bg-color: rgba(240, 248, 255, 0.95);
+  --checkmark-bg: rgba(240, 248, 255, 0.9);
+  --checkmark-color: #000000;
+  
+  /* Metin Renkleri */
+  --text-color-headings: #F0F8FF;
+  --text-color-button: #000000;
+
+  /* Gölge ve Parlama Renkleri */
+  --box-shadow-panel: 0 10px 30px rgba(240, 248, 255, 0.3);
+  --box-shadow-item-hover: 0 4px 15px rgba(240, 248, 255, 0.4);
+  --box-shadow-selected: 0 4px 20px rgba(240, 248, 255, 0.6);
+  --box-shadow-title-photo: 0 0 16px 2px rgba(240, 248, 255, 0.5), 0 2px 8px rgba(0,0,0,0.3);
+  --box-shadow-skin-card-hover: 0 15px 40px rgba(240, 248, 255, 0.5);
+}

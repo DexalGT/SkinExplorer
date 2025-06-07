@@ -1,0 +1,29 @@
+/* themes/midnight-silver.css */
+:root {
+  /* Ana Renkler */
+  --primary-color: #C0C0C0;
+  --primary-color-darker: rgba(192, 192, 192, 0.8);
+  --primary-color-hover-bg: rgba(192, 192, 192, 0.2);
+  --primary-color-active-bg: rgba(192, 192, 192, 0.4);
+  --primary-color-border: rgba(192, 192, 192, 0.4);
+  --primary-color-focus-border: #C0C0C0;
+  --primary-color-gradient-start: rgba(192, 192, 192, 0.4);
+  --primary-color-gradient-end: rgba(169, 169, 169, 0.3);
+
+  /* İkon ve Gösterge Renkleri */
+  --icon-fill-color: #C0C0C0;
+  --indicator-bg-color: rgba(192, 192, 192, 0.85);
+  --checkmark-bg: rgba(192, 192, 192, 0.9);
+  --checkmark-color: #000000;
+  
+  /* Metin Renkleri */
+  --text-color-headings: #C0C0C0;
+  --text-color-button: #000000;
+
+  /* Gölge ve Parlama Renkleri */
+  --box-shadow-panel: 0 10px 30px rgba(192, 192, 192, 0.2);
+  --box-shadow-item-hover: 0 4px 15px rgba(192, 192, 192, 0.3);
+  --box-shadow-selected: 0 4px 20px rgba(192, 192, 192, 0.5);
+  --box-shadow-title-photo: 0 0 16px 2px rgba(192, 192, 192, 0.4), 0 2px 8px rgba(0,0,0,0.5);
+  --box-shadow-skin-card-hover: 0 15px 40px rgba(192, 192, 192, 0.4);
+}
