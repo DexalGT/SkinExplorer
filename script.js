@@ -501,14 +501,14 @@ function openChromaModal(championNumericKey, ddragonSkinData, baseSkinName, cdra
 
   const baseChromaEntry = {
     id: baseChromaDDragonSkinId,
-    name: "Temel Kostüm", 
+    name: "Base Skin", 
     isBase: true,
     primaryCdragonThumbnailUrl: `${CDRAGON_CHROMA_IMAGES_BASE_URL}/${championNumericKey}/${baseChromaDDragonSkinId}.png`,
     secondaryWikiThumbnailUrlPng: `${WIKI_REDIRECT_BASE_URL}/${baseSkinWikiThumbTry1_Filename}`,
     tertiaryWikiThumbnailUrlJpg: `${WIKI_REDIRECT_BASE_URL}/${baseSkinWikiThumbTry2_Filename}`,
     quaternaryDdragonLoadingUrl: `${DDRAGON_BASE_URL}/img/champion/loading/${selectedChampionData.id}_${ddragonSkinData.num}.jpg`,
     quinaryDdragonSquareUrl: `${DDRAGON_BASE_URL}/${patchVersion}/img/champion/${selectedChampionData.image.full}`,
-    chromaNameForDisplay: "Temel",
+    chromaNameForDisplay: "Base",
     actualDisplayUrl: '' 
   };
   console.log("Oluşturulan BaseChromaEntry:", JSON.parse(JSON.stringify(baseChromaEntry)));
