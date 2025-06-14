@@ -54,7 +54,6 @@ const AVAILABLE_THEMES = [
   { file: "demon-red.css", name: "Demon Red", previewColor: "#DC143C" }, 
   { file: "arctic-white.css", name: "Arctic White", previewColor: "#F0F8FF" },
   { file: "bronze-copper.css", name: "Bronze Copper", previewColor: "#CD7F32" },
-  { file: "coral-pink.css", name: "Coral Pink", previewColor: "#FF7F50" },
   { file: "midnight-silver.css", name: "Midnight Silver", previewColor: "#C0C0C0" }
   // { file: "tema-dosya-adi.css", name: "Görünen Tema Adı", previewColor: "#anaRenkKodu" }
 ];
