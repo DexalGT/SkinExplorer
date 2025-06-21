@@ -831,3 +831,113 @@ h1 {
   border: 1px solid rgba(255, 255, 255, 0.2);
   flex-shrink: 0;
 }
+
+/* İkonların konumlanabilmesi için ana kartı göreceli yap */
+.skin-card {
+  position: relative;
+}
+
+/* Tüm Nadirlik İkonları için Ortak Stil */
+.rarity-icon {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 32px;
+  height: 32px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.8));
+  transition: transform 0.2s ease;
+}
+.skin-card:hover .rarity-icon {
+    transform: scale(1.1);
+}
+
+/* Miras (Legacy) İkonu için Stil */
+.legacy-icon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 28px;
+  height: 28px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.8));
+  transition: transform 0.2s ease;
+  background-image: url('icons/legacy.png'); /* Kendi legacy ikonunuzun yolunu buraya yazın */
+}
+.skin-card:hover .legacy-icon {
+    transform: scale(1.1);
+}
+/* Kroma listesindeki her bir öğenin içindeki metinleri düzenler */
+.chroma-item {
+    gap: 15px; /* Resim ve metin arasını biraz açar */
+}
+.chroma-item-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px; /* İsim ve ID arasını ayarlar */
+}
+.chroma-item-name { 
+  font-size: 0.95rem; 
+  color: var(--text-color-main); 
+  font-weight: 600; 
+}
+.chroma-item-id {
+  font-size: 0.75rem;
+  color: var(--text-color-secondary);
+  font-family: 'Courier New', Courier, monospace; /* ID'nin farklı görünmesi için */
+}
+
+/* Alt alta bilgi gösterimi için yeni stiller (ORTALANMIŞ) */
+.skin-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* DÜZELTME: Metinleri ortala */
+  width: 100%;
+  margin-top: -20px;     /* Başlığın altındaki boşluğu azaltır */
+  margin-bottom: 2px;
+}
+
+.skin-info-line {
+  color: var(--primary-color);
+  font-size: 0.9rem;  /* DÜZELTME: Yazı boyutunu büyüttük. */
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* Başlığı tekrar ortaya al */
+.skin-card h3 {
+  width: 100%;
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 5px; 
+  min-height: 2.4em;
+  line-height: 1.2em;
+  /* padding: 0 5px; satırına artık gerek yok */
+}
+
+/* Her bir nadirlik seviyesi için özel ikonlar */
+.rarity-icon.epic {
+  background-image: url('icons/epic.png');
+}
+.rarity-icon.legendary {
+  background-image: url('icons/legendary.png');
+}
+.rarity-icon.mythic {
+  background-image: url('icons/mythic.png');
+}
+.rarity-icon.ultimate {
+  background-image: url('icons/ultimate.png');
+}
+.rarity-icon.exalted {
+  background-image: url('icons/exalted.png');
+}
+.rarity-icon.transcendent {
+  background-image: url('icons/transcendent.png');
+}
